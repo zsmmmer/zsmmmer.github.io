@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "DINAlternate-Bold";
+  src: url("fonts/DINAlternate-Bold.ttf");
+}
+
+body {
+  background: #000;
+  background-image: url("images/work5/toutou1.gif");
+  background-size: 100vw auto;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bar {
+  width: 100vw;
+  height: 8vh;
+  background: rgba(255, 255, 255, 1);
+  /* border-bottom: 2px solid;
+    border-color: black; */
+  /* box-shadow:0px 10px 20px 0px rgba(105, 89, 30, 0.05) ; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 801;
+  transition: all 1s;
+}
+
+.bar .xuanxiang {
+  float: right;
+  width: auto;
+  height: 3vh;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 2vh;
+  border-bottom: 0px solid #f39c12;
+  transition: all 0.5s;
+  font-family: "DINAlternate-Bold";
+  margin-top: 3vh;
+  margin-right: 15vw;
+}
+.bar .xuanxiang:hover {
+  border-bottom: 5px solid #f39c12;
+}
+.bar .xuanxiang:nth-child(2) {
+  margin-right: 5vw;
+}
+.bar .logo {
+  position: absolute;
+  width: auto;
+  height: 4vh;
+  left: 15vw;
+  top: 2vh;
+  transition: all 1s;
+  opacity: 1;
+}
+.banner {
+  width: 100vw;
+  height: 108vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 110vw;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 3vh;
+  font-weight: 700;
+  font-family: "DINAlternate-Bold";
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 120%;
+  margin-bottom: 3vh;
+  font-weight: 500;
+  font-family: "DINAlternate-Bold";
+}
+
+p {
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 300;
+}
+h4 {
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 4px;
+  font-family: "DINAlternate-Bold";
+}
+
+h5 {
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.beijing {
+  width: 100vw;
+  height: 55vh;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3);
+  color: #000;
+  transition: all 3s;
+  z-index: 100;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.beijing .bg {
+  width: 40vw;
+  margin-left: 15vw;
+  height: auto;
+  float: left;
+  margin-top: 10vh;
+}
+
+.beijing .team {
+  width: 7vw;
+  margin-right: 15vw;
+  margin-top: 10vh;
+  float: right;
+  height: auto;
+}
+.beijing .team1 {
+  width: 7vw;
+  margin-right: 4vw;
+  margin-top: 10vh;
+  float: right;
+  height: auto;
+}
+.beijing h4 {
+  color: #e7cdcd;
+}
+
+.bg .line {
+  width: 80px;
+  border-top: 1px solid #e7cdcd;
+  height: 3vh;
+}
+
+.team .line {
+  width: 40px;
+  border-top: 1px solid #e7cdcd;
+  height: 3vh;
+}
+
+.bg .bgg {
+  margin-top: 5vh;
+}
+
+.button {
+  width: 91px;
+  height: 35px;
+  background: rgba(231, 205, 205, 0.5);
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 21px;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5vh;
+}
+
+.button a {
+  width: 80px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  display: inline-block;
+}
+
+.button:hover {
+  background: rgba(242, 184, 184, 0.8);
+}
+
+.bgg p a {
+  color: #000;
+}
+
+.bgg p a:hover {
+  text-decoration: #d0aaaa wavy underline;
+}
+
+.bgg .xiao {
+  margin-top: 2vh;
+  font-size: 11px;
+  color: rgba(130, 130, 130, 1);
+}
+
+.tu {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: #fff;
+}
+
+.tu img {
+  width: 60vw;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 14px 14px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.tu video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tu1 {
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(14px);
+}
+
+.bbb {
+  width: 100vw;
+  height: 70vh;
+  background: #fff;
+}
+
+.tu1 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+}
+
+.bar1 {
+  width: 100vw;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bar1 div:nth-child(1) {
+  float: left;
+  margin-left: 15vw;
+  margin-top: 1vh;
+  color: #000;
+  font-family: "DINAlternate-Bold";
+  font-size: 24px;
+  z-index: 22;
+}
+.bar1 div:nth-child(2) {
+  float: right;
+  margin-right: 15vw;
+  margin-top: 1vh;
+  color: #000;
+  font-family: "DINAlternate-Bold";
+  font-size: 24px;
+  z-index: 22;
+}
+
+.bar1 a {
+  color: inherit;
+}

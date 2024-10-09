@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work#5:Music Visualization</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="work5.css" />
+    <link rel="icon" type="image/x-ico" href="images/axg24-h0riv-001.ico" />
+  </head>
+  <body>
+    <div class="bar" id="bar">
+      <div class="xuanxiang">
+        <a href="index.html#works">Works</a>
+      </div>
+      <div class="xuanxiang">
+        <a href="index.html">Home</a>
+      </div>
+      <img src="images/home/Group 2.png" alt="" class="logo" id="logo" />
+    </div>
+    <div class="banner"></div>
+    <div class="beijing" id="bg">
+      <div class="bg">
+        <h4>Background</h4>
+        <div class="line"></div>
+        <h1>How to generate a classical Chinese string experience?</h1>
+        <div class="bgg">
+          <p>
+            This is a music visualization based on p5.js. Around the topic of
+            music generation, I carried out an exploration in the direction of
+            Chinese classical music generation and explored more interaction
+            possibilities by introducing motion capture with ml5.js.
+          </p>
+          <div class="button">
+            <a
+              href="https://editor.p5js.org/Jasmine99/full/ReM-Wza2G"
+              target="_blank"
+              >Try</a
+            >
+          </div>
+          <p class="xiao">
+            If the browser does not support the camera,<a
+              href="https://editor.p5js.org/Jasmine99/full/FCdC3saLJ"
+              target="_blank"
+              >Click here.</a
+            >
+          </p>
+        </div>
+      </div>
+      <!-- <div class="team">
+            <h4>Tutor</h4>
+            <div class="line"></div>
+            <p>张屹南</p>
+        </div> -->
+    </div>
+    <div class="tu">
+      <img src="images/work5/caotu22.png" />
+    </div>
+    <div class="tu">
+      <video width="1344" height="756" controls="controls">
+        <source src="images/work5/zhanshi33.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="bbb"></div>
+    <div class="tu1">
+      <video width="1344" height="756" controls="controls">
+        <source src="images/work5/zhanshi44.mp4" type="video/mp4" />
+      </video>
+      <div class="bar1">
+        <div><a href="index.html#works">&lt;&lt;Back</a></div>
+        <div><a href="work_6.html">&gt;&gt;Next</a></div>
+      </div>
+    </div>
+    <script>
+      let bar = document.getElementById("bar");
+      let logo = document.getElementById("logo");
+      let bg = document.getElementById("bg");
+      window.onscroll = function () {
+        var scrollTop =
+          window.pageYOffset || //用于Safari
+          document.documentElement.scrollTop ||
+          document.body.scrollTop ||
+          0;
+        let _getHeight = bg.offsetTop;
+        if (scrollTop >= _getHeight + 80) {
+          bg.style.opacity = "0";
+        }
+        if (scrollTop < _getHeight + 200) {
+          bg.style.opacity = "1";
+        }
+        if (scrollTop > 0) {
+          bar.style.backgroundColor = "rgba(255, 255, 255,0)";
+          logo.style.opacity = "0";
+        }
+        if (scrollTop == 0) {
+          bar.style.backgroundColor = "rgba(255, 255, 255,1)";
+          logo.style.opacity = "1";
+        }
+      };
+    </script>
+  </body>
+</html>

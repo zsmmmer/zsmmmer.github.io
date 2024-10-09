@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "DINAlternate-Bold";
+  src: url("fonts/DINAlternate-Bold.ttf");
+}
+
+body {
+  background: #000;
+  background-image: url("images/work6/toutou333.png");
+  background-size: 130vw auto;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bar {
+  width: 100vw;
+  height: 8vh;
+  background: rgba(255, 255, 255, 1);
+  /* border-bottom: 2px solid;
+    border-color: black; */
+  /* box-shadow:0px 10px 20px 0px rgba(105, 89, 30, 0.05) ; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 801;
+  transition: all 1s;
+}
+
+.bar .xuanxiang {
+  float: right;
+  width: auto;
+  height: 3vh;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 2vh;
+  border-bottom: 0px solid #f39c12;
+  transition: all 0.5s;
+  font-family: "DINAlternate-Bold";
+  margin-top: 3vh;
+  margin-right: 15vw;
+}
+.bar .xuanxiang:hover {
+  border-bottom: 5px solid #f39c12;
+}
+.bar .xuanxiang:nth-child(2) {
+  margin-right: 5vw;
+}
+.bar .logo {
+  position: absolute;
+  width: auto;
+  height: 4vh;
+  left: 15vw;
+  top: 2vh;
+  transition: all 1s;
+  opacity: 1;
+}
+.banner {
+  width: 100vw;
+  height: 108vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 110vw;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 3vh;
+  font-weight: 700;
+  font-family: "DINAlternate-Bold";
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 120%;
+  margin-bottom: 3vh;
+  font-weight: 500;
+  font-family: "DINAlternate-Bold";
+}
+
+p {
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 300;
+}
+h4 {
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 4px;
+  font-family: "DINAlternate-Bold";
+}
+
+h5 {
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.beijing {
+  width: 100vw;
+  height: 55vh;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: all 3s;
+  z-index: 100;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.beijing .bg {
+  width: 40vw;
+  margin-left: 15vw;
+  height: auto;
+  float: left;
+  margin-top: 10vh;
+}
+
+.beijing .team {
+  width: 7vw;
+  margin-right: 15vw;
+  margin-top: 10vh;
+  float: right;
+  height: auto;
+}
+.beijing .team1 {
+  width: 10vw;
+  margin-right: 4vw;
+  margin-top: 10vh;
+  float: right;
+  height: auto;
+}
+.beijing h4 {
+  color: #4608ce;
+}
+
+.bg .line {
+  width: 80px;
+  border-top: 1px solid #4608ce;
+  height: 3vh;
+}
+
+.team .line {
+  width: 40px;
+  border-top: 1px solid #4608ce;
+  height: 3vh;
+}
+
+.bg .bgg {
+  margin-top: 5vh;
+}
+
+.team1 .line {
+  width: 60px;
+  border-top: 1px solid #4608ce;
+  height: 3vh;
+}
+
+.tu1 {
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+}
+
+.bbb {
+  width: 100vw;
+  height: 70vh;
+  background: #000;
+}
+
+.tu1 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+}
+
+.bar1 {
+  width: 100vw;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bar1 div:nth-child(1) {
+  float: left;
+  margin-left: 15vw;
+  margin-top: 1vh;
+  color: #4608ce;
+  font-family: "DINAlternate-Bold";
+  font-size: 24px;
+  z-index: 22;
+}
+.bar1 div:nth-child(2) {
+  float: right;
+  margin-right: 15vw;
+  margin-top: 1vh;
+  color: #4608ce;
+  font-family: "DINAlternate-Bold";
+  font-size: 24px;
+  z-index: 22;
+}
+
+.bar1 a {
+  color: inherit;
+}

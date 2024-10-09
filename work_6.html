@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work#6:X-RGB Shooting</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="work6.css" />
+    <link rel="icon" type="image/x-ico" href="images/axg24-h0riv-001.ico" />
+  </head>
+  <body>
+    <div class="bar" id="bar">
+      <div class="xuanxiang">
+        <a href="index.html#works">Works</a>
+      </div>
+      <div class="xuanxiang">
+        <a href="index.html">Home</a>
+      </div>
+      <img src="images/home/Group 2.png" alt="" class="logo" id="logo" />
+    </div>
+    <div class="banner"></div>
+    <div class="beijing" id="bg">
+      <div class="bg">
+        <h4>Background</h4>
+        <div class="line"></div>
+        <h1>Audio-driven First-person Shooter Game</h1>
+        <div class="bgg">
+          <p>
+            This is a music game design project. Starting from the idea of
+            wanting to make a music-related combat game, we gradually formed and
+            perfected the core gameplay of music previewing boss attack patterns
+            and using rhythm to drive the player's attack behavior.
+          </p>
+        </div>
+      </div>
+      <div class="team">
+        <h4>Team</h4>
+        <div class="line"></div>
+        <p>
+          Wenyi Liu<br />
+          Yanqv Chen<br />
+          Shiman Zhang
+        </p>
+      </div>
+      <div class="team1">
+        <h4>My Role</h4>
+        <div class="line"></div>
+        <p>
+          Boss Design and Implementation<br />
+          Unity programming
+        </p>
+      </div>
+    </div>
+    <div class="bbb"></div>
+    <div class="tu1">
+      <video width="1344" height="756" controls="controls">
+        <source src="images/work6/xrgb.mp4" type="video/mp4" />
+      </video>
+      <div class="bar1">
+        <div><a href="index.html#works">&lt;&lt;Back</a></div>
+      </div>
+    </div>
+    <script>
+      let bar = document.getElementById("bar");
+      let logo = document.getElementById("logo");
+      let bg = document.getElementById("bg");
+      window.onscroll = function () {
+        var scrollTop =
+          window.pageYOffset || //用于Safari
+          document.documentElement.scrollTop ||
+          document.body.scrollTop ||
+          0;
+        let _getHeight = bg.offsetTop;
+        if (scrollTop >= _getHeight + 80) {
+          bg.style.opacity = "0";
+        }
+        if (scrollTop < _getHeight + 200) {
+          bg.style.opacity = "1";
+        }
+        if (scrollTop > 0) {
+          bar.style.backgroundColor = "rgba(255, 255, 255,0)";
+          logo.style.opacity = "0";
+        }
+        if (scrollTop == 0) {
+          bar.style.backgroundColor = "rgba(255, 255, 255,1)";
+          logo.style.opacity = "1";
+        }
+      };
+    </script>
+  </body>
+</html>

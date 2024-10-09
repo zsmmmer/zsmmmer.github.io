@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work#4:Storytelling with Data</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="work3.css">
+    <link rel="icon" type="image/x-ico" href="images/axg24-h0riv-001.ico" />
+</head>
+<body>
+    <div class="bar" id="bar">
+        <div class="xuanxiang">
+            <a href="index.html#works">Works</a>
+        </div>
+        <div class="xuanxiang">
+            <a href="index.html">Home</a>
+        </div>
+        <img src="images/home/Group 2.png" alt="" class="logo" id="logo">
+       
+     </div>
+     <div class="banner">
+        <img src="images/work3/toutu.gif">
+     </div>
+     <div class="beijing" id="bg">
+        <div class="bg">
+            <h4>Background</h4>
+            <div class="line"></div>
+            <h1>How is China's cultural communication power on the YouTube platform?</h1>
+           <div class="bgg">
+               <p>On February 2, 2021, Guinness World Records announced on its official Weibo account that short-video blogger Li Ziqi had set a new record in July 2020 for the "most subscribed YouTube channel in Chinese" with 14.1 million subscribers. In her videos, which are not subtitled in English, she uses simple conversations in Sichuan dialect to show the idyllic life in China. But foreign fans who can't read Chinese or understand the Chinese dialect have never been shy about expressing their love for Li Ziqi and her videos. On YouTube, a global video platform where English is the dominant language, what is the cultural spread of bloggers with East Asian cultural backgrounds like Li Ziqi?
+<br>
+                <br>
+                This data story was entered in the IEEE PacificVis 2022 Visual Data Storytelling Contest for Hornorable Mention.</p>
+           </div>
+        </div>
+        <div class="team">
+            <h4>Team</h4>
+            <div class="line"></div>
+            <p>Shiman Zhang<br> Haotian Wu<br>  Yuxuan Li</p>
+        </div>
+        <div class="team1">
+            <h4>Tutors</h4>
+            <div class="line"></div>
+            <p>Yang Shi<br>  Siming Chen<br>  Nan Cao</p>
+        </div>
+     </div>
+     <div class="p1">
+    </div>
+    <div class="wenti" >
+        <div class="ww">        
+            <div class="line"></div>
+        <h1>How to present the data of YouTube bloggers to readers through a reasonable visual channel?</h1>
+    </div>
+
+        <div class="caotu">
+            <img src="images/liede/shujv11.jpg">
+            <img src="images/liede/shujv6.jpeg">
+            <img src="images/liede/shujv9.jpg">
+            <img src="images/work3/shujv8.jpg">
+
+        </div>
+    </div>
+    <div class="p2"></div>
+    <div class="huaxiang">
+        <div class="ww">        
+            <div class="line"></div>
+        <h5>Blogger Portraits</h5>
+        <p>After many attempts, we finally chose to use the form of circular visualization, and construct the portrait through the visualization of the following dimensions.</p>
+        <img src="images/work3/shujv4.png" alt="" class="weidu">
+    </div>
+        
+        <div class="pad">
+            <img src="images/work3/ipad.png">
+            <img src="images/work3/jieshi3.gif">
+        </div>
+    </div>
+    <div class="huaxiang1">
+        <div class="ww">        
+            <div class="line"></div>
+        <h5>Portrait of Cultural District</h5>
+        <p>We selected the three YouTube divisions with the highest comprehensive subscriptions in each cultural area, and ranked the top ten YouTube bloggers from high to low according to the subscription data in the three divisions, a total of 30 people , drawing a portrait of the cultural dissemination power of each cultural area. And, we summarize the bloggers from TOP1 to TOP10 in a graph, and the order of ranking is clockwise.</p>
+    </div>
+        <div class="pad">
+            <img src="images/work3/ipad.png">
+            <img src="images/work3/jieshi4.gif">
+        </div>
+    </div>
+    <div class="huaxiang2">
+        <div class="ww">        
+            <div class="line"></div>
+        <h5>Data Story</h5>
+    </div>
+    <div class="video">
+        <video width="1344" height="756" controls="controls" poster="images/work3/shujv10.png">
+            <source src="images/work3/Video.mp4" type="video/mp4" />
+          </video>
+     </div>
+     <div class="bgc"></div>
+     <div class="bar1">
+        <div><a href="index.html#works">&lt;&lt;Back</a></div>
+        <div><a href="work_5.html">&gt;&gt;Next</a></div>
+    </div>
+        </div>
+    </div>
+    <script>
+            let bar=document.getElementById("bar");
+            let logo=document.getElementById("logo");
+            let bg=document.getElementById("bg");
+            window.onscroll=function()
+        {
+            var scrollTop = window.pageYOffset  //用于Safari
+                        || document.documentElement.scrollTop 
+                        || document.body.scrollTop 
+                        || 0;
+            let _getHeight = bg.offsetTop;
+            if(scrollTop>=_getHeight+80){
+                bg.style.opacity='0';
+            }   
+            if(scrollTop<_getHeight+200){
+                bg.style.opacity='1';
+            }  
+            if(scrollTop>0){
+                bar.style.backgroundColor='rgba(255, 255, 255,0)'; 
+                logo.style.opacity='0';
+            }
+            if(scrollTop==0){
+                bar.style.backgroundColor='rgba(255, 255, 255,1)'; 
+                logo.style.opacity='1';
+            }
+        }
+    </script> 
+</body>
+</html>

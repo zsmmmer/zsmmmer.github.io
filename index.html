@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home_Welcome!</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/x-ico" href="images/axg24-h0riv-001.ico" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="home">
+      <img src="images/home/Shiman.png" alt="" class="single" id="m5" />
+      <img src="images/home/Zhang.png" alt="" class="single" id="move3" />
+      <img src="images/home/Star 2.png" alt="" class="single" />
+      <img src="images/home/Group 12.png" alt="" class="single" id="m1" />
+      <img src="images/home/Line 1.png" alt="" class="single" id="move1" />
+      <img src="images/home/Group 11.png" alt="" class="single" id="m2" />
+      <img src="images/home/Digi.png" alt="" class="single" />
+      <img src="images/home/tal.png" alt="" class="single" id="m3" />
+      <img src="images/home/Line 2.png" alt="" class="single" id="move2" />
+      <img src="images/home/Me.png" alt="" class="single" id="m4" />
+      <img src="images/home/dia.png" alt="" class="single" />
+      <img src="images/home/Group 13.png" alt="" class="single" />
+      <img src="images/home/Group 14.png" alt="" class="single" />
+      <img src="images/home/Group 15.png" alt="" class="single" />
+      <img src="images/home/Group 1.png" alt="" class="single" />
+      <script>
+        let move1 = document.getElementById("move1");
+        let move2 = document.getElementById("move2");
+        let move3 = document.getElementById("move3");
+        let m1 = document.getElementById("m1");
+        let m2 = document.getElementById("m2");
+        let m3 = document.getElementById("m3");
+        let m4 = document.getElementById("m4");
+        let m5 = document.getElementById("m5");
+        move1.addEventListener("mouseover", function () {
+          m1.style.left = "-2vw";
+          move1.style.transform = "rotate(-15deg)";
+          m2.style.left = "17vw";
+        });
+        move1.addEventListener("mouseout", function () {
+          m1.style.left = "15px";
+          move1.style.transform = "rotate(0deg)";
+          m2.style.left = "15vw";
+        });
+        move2.addEventListener("mouseover", function () {
+          m3.style.top = "41vh";
+          move2.style.transform = "rotate(15deg)";
+          m4.style.left = "76vw";
+        });
+        move2.addEventListener("mouseout", function () {
+          m3.style.top = "33.5vh";
+          move2.style.transform = "rotate(0deg)";
+          m4.style.left = "72vw";
+        });
+        move3.addEventListener("mouseover", function () {
+          m5.style.left = "-2vw";
+          move3.style.left = "37vw";
+        });
+        move3.addEventListener("mouseout", function () {
+          m5.style.left = "15px";
+          move3.style.left = "35vw";
+        });
+      </script>
+    </div>
+    <div class="bar" id="bar">
+      <div class="xuanxiang">
+        <a href="#works">Works</a>
+      </div>
+      <div class="xuanxiang">
+        <a href="index.html">Home</a>
+      </div>
+      <img src="images/home/Group 2.png" alt="" class="logo" id="logo" />
+    </div>
+    <div class="part1" id="works">
+      <div class="work1" onclick="window.open('./work_1.html')" id="work1">
+        <div class="title">
+          <p>Speculative Design & Service Design</p>
+          <h1>Health Code Redesign</h1>
+        </div>
+        <!-- <img src="images/part1/work1.png" alt="" id="img1" > -->
+      </div>
+      <!-- <div class="work2" onclick="window.open('./work_2.html')" id="work2">
+        <div class="title">            
+                <p>品牌设计</p>
+                <h1>则灵——NFT</h1>
+                <h1 >赋能的电子日</h1>
+                <h1 style="width:18vh">历品牌</h1>
+        </div>
+        <img src="images/part1/work2.png" alt="" id="img2" >
+        </div> -->
+      <div class="work3" onclick="window.open('./work_7.html')" id="work3">
+        <div class="title">
+          <p>Interactive Device</p>
+          <h1>Superorganism: Interactive Digital Petri Dish</h1>
+        </div>
+        <!-- <img src="images/part1/org2.png" alt="" id="img3" > -->
+      </div>
+      <div class="work4" onclick="window.open('./work_4.html')" id="work4">
+        <div class="title">
+          <p>Open Source Hardware</p>
+          <h1>BLOSSOM: Brainwave Concentration Bonsai</h1>
+        </div>
+        <!-- <img src="images/part1/work4_1.png" alt="" id="img4" > -->
+      </div>
+
+      <div class="others">
+        <h1>Other Art Practices</h1>
+      </div>
+
+      <div class="work56">
+        <div class="work6" onclick="window.open('./work_3.html')" id="work5">
+          <div class="title">
+            <p>Storytelling with Data</p>
+            <h1>YouTube Cultural Communication Portrait</h1>
+          </div>
+          <img src="#" alt="" id="img5" />
+        </div>
+        <div class="work5" onclick="window.open('./work_5.html')" id="work5">
+          <div class="title">
+            <p>Music Visualization</p>
+            <h1>Interactive Generation of Music Based on Motion Capture</h1>
+          </div>
+        </div>
+      </div>
+      <div class="work7" onclick="window.open('./work_6.html')" id="work7">
+        <div class="title">
+          <p>Game Design</p>
+          <h1>X-RGB</h1>
+          <h1>Music Shooting Game</h1>
+        </div>
+        <img src="#" alt="" id="img7" />
+      </div>
+
+      </div>   
+    <!-- <script>
+            let img1=document.getElementById("img1");
+            let work1=document.getElementById("work1");
+            let img2=document.getElementById("img2");
+            let work2=document.getElementById("work2");
+            let imgArr1=["images/part1/work1.png","images/part1/work1_1.png"]
+            let imgArr2=["images/part1/work2.png","images/part1/work2_1.png"]
+            let img3=document.getElementById("img3");
+            let work3=document.getElementById("work3");
+            let imgArr3=["images/part1/org2.png","images/part1/org3.png"]
+            let img4=document.getElementById("img4");
+            let work4=document.getElementById("work4");
+            let imgArr4=["images/part1/work4_1.png","images/part1/work4_2.png"]
+            let img5=document.getElementById("img5");
+            let work5=document.getElementById("work5");
+            let imgArr5=["#","images/part1/work6.png"]
+            let img6=document.getElementById("img6");
+            let work6=document.getElementById("work6");
+            let imgArr6=["#","images/part1/work6.png"]
+            let img7=document.getElementById("img7");
+            let work7=document.getElementById("work7");
+            let imgArr7=["#","images/part1/youxi1.png"]
+            work1.addEventListener("mouseover",function(){
+                img1.src=imgArr1[1];
+            })
+            work1.addEventListener("mouseout",function(){
+                img1.src=imgArr1[0];
+            })
+            work2.addEventListener("mouseover",function(){
+                img2.src=imgArr2[1];
+            })
+            work2.addEventListener("mouseout",function(){
+                img2.src=imgArr2[0];
+            })
+            work3.addEventListener("mouseover",function(){
+                img3.src=imgArr3[1];
+            })
+            work3.addEventListener("mouseout",function(){
+                img3.src=imgArr3[0];
+            })
+            work4.addEventListener("mouseover",function(){
+                img4.src=imgArr4[1];
+            })
+            work4.addEventListener("mouseout",function(){
+                img4.src=imgArr4[0];
+            })
+            work5.addEventListener("mouseover",function(){
+                img5.src=imgArr5[1];
+            })
+            work5.addEventListener("mouseout",function(){
+                img5.src=imgArr5[0];
+            })
+            work6.addEventListener("mouseover",function(){
+                img6.src=imgArr6[1];
+            })
+            work6.addEventListener("mouseout",function(){
+                img6.src=imgArr6[0];
+            })
+            work7.addEventListener("mouseover",function(){
+                img7.src=imgArr7[1];
+            })
+            work7.addEventListener("mouseout",function(){
+                img7.src=imgArr7[0];
+            })
+ </script> -->
+      <div class="footer">
+        <div class="xuanxiang">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="xuanxiang">
+          <a href="#works">Works</a>
+        </div>
+        <div class="email">zsmmm999@gmail.com</div>
+      </div>
+      <div class="final">
+        <img src="images/final/GO.png" alt="" />
+        <img src="images/final/Group19.png" alt="" />
+        <img src="images/final/CON1.png" alt="" id="im1" />
+        <img src="images/final/Group20.png" alt="" />
+        <img src="images/final/Group21.png" alt="" />
+        <img src="images/final/BACK.png" alt="" id="im2" />
+        <img src="images/final/Line3.png" alt="" id="move4" />
+        <img src="images/final/TACT.png" alt="" id="im3" />
+        <img src="images/home/Group 2.png" alt="" id="im4" />
+        <script>
+          let move4 = document.getElementById("move4");
+          let im1 = document.getElementById("im1");
+          let im2 = document.getElementById("im2");
+          let im3 = document.getElementById("im3");
+          let im4 = document.getElementById("im4");
+          move4.addEventListener("mouseover", function () {
+            im1.style.top = "5vh";
+            move4.style.transform = "rotate(-15deg)";
+            im2.style.left = "-2vw";
+            im3.style.left = "75vw";
+            im4.style.opacity = "1";
+          });
+          move4.addEventListener("mouseout", function () {
+            im1.style.top = "1vh";
+            move4.style.transform = "rotate(0deg)";
+            im2.style.left = "9vw";
+            im3.style.left = "73vw";
+            im4.style.opacity = "0";
+          });
+        </script>
+      </div>
+    </div>
+  </body>
+  <script>
+    let bar = document.getElementById("bar");
+    let logo = document.getElementById("logo");
+
+    window.onscroll = function () {
+      var scrollTop =
+        window.pageYOffset || //用于Safari
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        0;
+      let _getHeight = bar.offsetTop;
+      let logoHeight = logo.offsetTop;
+      if (scrollTop >= 200) {
+        logo.classList.add("logo1");
+      }
+      if (scrollTop < _getHeight) {
+        bar.classList.remove("fixed");
+      } else {
+        bar.classList.add("fixed");
+      }
+    };
+  </script>
+</html>

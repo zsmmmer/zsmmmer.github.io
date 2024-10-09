@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body{
+    display: flex;
+    overflow-y: auto;
+} */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "DINAlternate-Bold";
+  src: url("fonts/DINAlternate-Bold.ttf");
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "DINAlternate-Bold";
+}
+
+h3 {
+  font-family: "DINAlternate-Bold";
+}
+
+h5 {
+  font-family: "DINAlternate-Bold";
+}
